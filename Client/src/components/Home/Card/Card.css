@@ -1,0 +1,31 @@
+.card {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 3px 5px 7px 0px rgba(0, 0, 0, 0.5);
+  font-weight: 200;
+  background-color: #21292d;
+  border-radius: 20px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card p {
+  color: white;
+  margin: 40px 0;
+}
+
+.card a {
+  background-color: transparent;
+  border: 1px solid #ec2c55;
+  padding: 10px 30px;
+  color: #ec2c55;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #ec2c55;
+  color: white;
+}

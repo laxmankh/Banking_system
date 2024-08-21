@@ -1,0 +1,50 @@
+header {
+  background-color: #1e2529;
+  padding: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40%;
+}
+
+header .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: #ec2c55;
+}
+
+header .icon {
+  font-size: 2rem;
+  margin: 0 20px;
+  color: white;
+}
+
+header .title h1 {
+  letter-spacing: 3px;
+}
+
+header .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+header .links a:hover {
+  color: #ec2c55;
+}
+
+header .links .active {
+  color: #ec2c55;
+}

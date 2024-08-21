@@ -1,0 +1,35 @@
+td {
+  color: black !important;
+}
+table tbody tr {
+  background-color: white;
+  height: 71px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td,
+table th {
+  color: white;
+  text-align: left;
+}
+table td.l,
+table th.l {
+  text-align: right;
+}
+table td.c,
+table th.c {
+  text-align: center;
+}
+table td.r,
+table th.r {
+  text-align: center;
+}
+
+tr td a {
+  text-decoration: none;
+  color: #ec2c55;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 2rem;
+}
